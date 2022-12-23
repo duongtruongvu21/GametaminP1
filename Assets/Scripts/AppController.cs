@@ -72,6 +72,7 @@ public class AppController : MonoBehaviour
             if (math[0] == '*' || math[0] == '/') throw new Exception("Failed");
             DataTable table = new DataTable();
             double result = (double)table.Compute("(2 - 2) / 2 + " + math, null);
+            if (Double.IsInfinity(result)) throw new Exception("Failed");
             return string.Format("{0:0.00}", result);
         }
         catch
