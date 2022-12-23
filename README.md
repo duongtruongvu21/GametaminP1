@@ -1,4 +1,4 @@
-"# GametaminP1" 
+# GametaminP1
 
 - Bài test Unity Game Developer - Phần 1: Giả lập Máy tính cá nhân.
 - Phát triển trên môi trường Unity.
@@ -29,4 +29,4 @@ Hình 3: Kết quả sau khi nhấn dấu "=". Kết quả làm chỉ làm tròn
 
 
 
-"Kết Thúc" 
+# Kết Thúc
